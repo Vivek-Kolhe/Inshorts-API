@@ -14,7 +14,7 @@ class App < Sinatra::Application
             "APIStatus" => "UP",
             "codedBy" => "Made with ❤️ by Vivek.",
             "reachMeAt" => "https://telegram.dog/pookie_0_0",
-            "sourceCode" => "closed-source"
+            "sourceCode" => "https://github.com/Vivek-Kolhe/Inshorts-API"
         }
         return jsonData.to_json
     end
